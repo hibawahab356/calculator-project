@@ -18,7 +18,7 @@ userInput.value += event.target.innerText
     // result 
 
 
-    let result = document.querySelector("#res")
+    let result = document.querySelector("#result")
     result.addEventListener("click" ,()=>{
       
         let output = (eval(userInput.value))
